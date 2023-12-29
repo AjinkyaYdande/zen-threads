@@ -1,13 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
-
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #fff; 
+    border-bottom: 2px solid #777676;
+    color: #000;
+}
 #nav-menu{
-    list-style-type: none;;
+    list-style-type: none;
+    width: 100%;
+    margin-left: 4em;
 }
 li{
-    display: inline;
+    display: inline-block;
+    width: 10%;
+}
+a{
+    text-decoration: none;
+}
+#nav-car-icon{
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .card{
