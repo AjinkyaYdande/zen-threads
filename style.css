@@ -165,14 +165,33 @@ section > h3{
   cursor: pointer;
 }
 
-.customer-review{
+.customer-review-icons{
   display: flex;
   justify-content: space-between;
 }
 
+.customer-reviews{
+  padding: 3em;
+}
 
+.common-review{
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 1em;
+}
 
+.new-review-add{
+  margin-top: 1em;
+  border: 1px solid #777676;
+  border-radius: 4px;
+  width: 40%;
+  padding: 10px;
+}
 
-
+.add-new-review{
+  height: 38px;
+  padding: 4px;
+}
 
 
