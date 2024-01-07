@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #f0f0f0;
 }
 #container{
   flex: 1;
@@ -57,7 +58,9 @@ a {
   text-align: center;
   border-radius: 4px;
   border: 1px solid #b8b8b8;
+  box-sizing: content-box;
 }
+
 .card p, .card h3,.card h4{
     padding: 4px;
 }
@@ -71,10 +74,13 @@ a {
     padding: 4px;
 }
 .all-cards{
+
+    box-sizing: border-box;
     width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .common-style h3,
 .products > h2, #prduct-filter,
