@@ -299,3 +299,76 @@ section > h3 {
   position: relative;
   top: 12px;
 }
+
+.checkout-container{
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  gap: 1em;
+  border: 0px solid red;
+}
+
+/* .billing-details{
+  width: 70%;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* gap: 1em; */
+/* } */
+
+/* .your-orders{
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid #333; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+/* } */
+
+
+
+form input[type="text"], input[type="email"], input[type="number"] {
+  padding: .5em;
+  border-radius: 4px;
+  border: 1px solid #777676;
+  margin-bottom: 1em;
+  gap: .5em;
+}
+
+form select{
+  padding: .5em;
+  border-radius: 4px;
+}
+
+.country-select select{
+  /* display: flex; */
+  /* flex-direction: row; */
+  position: relative;
+  /* left: 3em; */
+  width: 9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
