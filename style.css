@@ -352,6 +352,14 @@ form select{
   width: 9em;
 }
 
+textarea{
+  width: 100%;
+}
+
+label{
+  font-size: 14px;
+}
+
 
 
 
