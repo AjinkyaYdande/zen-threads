@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Products</title>
-    <link rel="icon" type="image/x-icon" href="../zen-threads/images/logo.jpeg"></link>
+    <title>Checkout</title>
+    <link rel="icon" type="image/x-icon" href="../zen-threads/images/logo.png"></link>
     <link rel="stylesheet"  href="../zen-threads/style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -70,12 +72,19 @@
             <section class="your-orders">
                 <h3>Your order</h3>
                 <form>
-                    <table border="1">
+                    <table border="0">
                             <tr>
-                                <th>Product</th>
-                                <th>Subtotal</th>
+                                <td colspan="4"><b>Product</b></td>
+                                <td colspan="5"><b>Subtotal</b></td>
                             </tr>
-                            <td>Total</td>    
+                            <tr>
+                              <td colspan="5">White plain tshirt</td>
+                              <td colspan="4">$150</td>
+                            </tr>
+                            <tr>
+                              <td colspan="5">Total</td>  
+                              <td colspan="4">$150</td>
+                            </tr>
                     </table>
                     <input type="radio" name="payment" value="Check-Payment"><label>Check  Payment</label>
                             <input type="radio" name="payment" value="Cash on delivery"><label>Cash on delivery</label>
@@ -85,6 +94,11 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="footer">
+          <code>All rights reserved zen-threads 2023 </code>
+        </div>
+      </footer>
     </body>
   </body>
 </html>
