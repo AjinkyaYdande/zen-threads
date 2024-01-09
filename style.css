@@ -259,7 +259,7 @@ section > h3 {
   border: 1px solid rgb(173, 173, 173);
   width: 30%;
 }
-.checkout {
+.checkout, .place-order {
   width: 100%;
   border: 1px solid #b4b4b4;
   border-radius: 4px;
@@ -267,7 +267,7 @@ section > h3 {
   margin-top: 1em;
 }
 
-.checkout:hover {
+.checkout:hover,.place-order:hover {
   cursor: pointer;
   font-weight: bolder;
 }
@@ -380,6 +380,13 @@ form table tr td{
   position: relative;
   margin: .5em;
 }
+.payment-method{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 1.6em;
+}
+
 
 
 
