@@ -19,31 +19,36 @@
           </a>
           <ul id="nav-menu">
             <li><a href="./products.html">All</a></li>
-            <li><a href="#">Tshirts</a></li>
-            <li><a href="#">Hoodies</a></li>
-            <li><a href="#">Jeans</a></li>
+            <li><a href="../zen-threads/tshirts.html">Tshirts</a></li>
+            <li><a href="../zen-threads/hoodies.html">Hoodies</a></li>
+            <li><a href="../zen-threads/jeans.html">Jeans</a></li>
           </ul>
            <a href="../zen-threads/cart.html">
             <img id="nav-car-icon" src="../zen-threads/images/shopping-cart.png" width="30px" height="inherit" alt="shopping-cart"/>
          </a>
         </nav>
-        <div>
+        <div class="page-title">
             <h2>Checkout</h2>
-            <section>
+            <div class="checkout-container">
+              <section class="billing-details">
                 <h3>Billing details</h3>
                 <form>
                     <input type="text" placeholder="Firstname">
                     <input type="text" placeholder="Lastname">
+                    <br>
                     <input type="text" placeholder="Company name (optional)">
-                    <label>Country</label>
-                    <select>
+                    <span class="country-select">
+                      <label>Country</label>
+                      <select>
                         <option>India</option>
                         <option>USA</option>
                         <option>Russia</option>
-
-                    </select>
+                      </select>
+                    </span>
+                    <br>
                     <input type="text" placeholder="Street address 1">
                     <input type="text" placeholder="Street address 2">
+                    <br>
                     <input type="text" placeholder="Town/City">
                     <label>State</label>
                     <select>
@@ -52,15 +57,17 @@
                         <option>Jammu Kashmir</option>
                         <option>Uttar Pradesh</option>
                     </select>
+                    <br>
                     <input type="number" placeholder="Pincode">
                     <input type="number" placeholder="Phone">
+                    <br>
                     <input type="email" placeholder="Email">
                     <h4>Additional infromation</h4>
-                    <label>Order notes(optional)</label>
+                    <label>Order notes(optional)</label><br>
                     <textarea></textarea>
                 </form>
             </section>
-            <section>
+            <section class="your-orders">
                 <h3>Your order</h3>
                 <form>
                     <table border="1">
@@ -75,13 +82,9 @@
                             <input type="submit" value="Place order">
                 </form>
             </section>
+          </div>
         </div>
       </div>
-      <footer>
-        <div class="footer">
-          <code>All rights reserved zen-threads 2023 </code>
-        </div>
-      </footer>
     </body>
   </body>
 </html>
